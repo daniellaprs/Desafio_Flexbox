@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: 'roboto', sans-serif;
+}
+
+.activos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: solid  #E8EBE4;
+    padding: 10px 10px 10px 30px;
+    border-right: solid 1px #e5e5e5;
+}
+    
+
+.boton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #A491D2; */
+    color: white;
+    text-align: center;
+    height: 100px;
+    border-bottom: solid 2px #E8EBE4;
+    padding: 25px 20px 25px 20px;
+    border-right: solid 1px #e5e5e5;
+}
+
+
+.boton h3 {
+    background-color: #a491d3;
+    padding: 10px 30px 10px 30px;
+    border-radius: 3px;
+}
+
+.boton h3:hover{
+
+    background-color: #cdc3e6;
+  
+    
+}
+.contenedor {
+    display: flex;
+    height: 100vh;
+    
+}
+
+.contactos {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: left;
+    min-width: fit-content;
+   /*  border-right: solid 2px #e5e5e5; */
+    
+    
+}
+.inactivo {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 15px;
+    border-bottom: solid 2px  #E8EBE4;
+    border-right: solid 1px #e5e5e5;
+}
+
+.iconos {
+    color: grey;
+}
+
+.icons i {
+    margin: 5px
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8ebee;
+    width: 80%;
+    
+}
+
+.principal img {
+    width: 20%
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.foto img {
+    flex-grow: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+
+
+.estado {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    line-height: 10%;
+    margin-right: 50px;
+    padding-left: 10px ;
+    
+
+}
+
+.estado h4 {
+    margin-bottom: 20px;
+}
+
+.texto {
+    display: flex;
+    flex-grow: 0;
+    margin: 4px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    flex-basis: 50%;
+    line-height: 33%;
+
+}
+
+.texto p {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.user {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+
+
